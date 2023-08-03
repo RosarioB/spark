@@ -1,0 +1,17 @@
+---
+version: '3.8'
+name: 'jupiter-pyspark'
+services:
+  jupiter-pyspark:
+    image: jupyter/pyspark-notebook:spark-3.4.1
+    hostname: jupiter-pyspark
+    container_name: jupiter-pyspark
+    ports:
+      - "8888:8888"
+      - "4040:4040"
+    networks:
+      - spark
+  
+networks:
+  spark:
+    driver: bridge
