@@ -1,3 +1,3 @@
 # spark
 Each branch contains different features:
-- `python`: contains notebooks with exercises on Pyspark
+- `python`: contains Jupyter notebooks to exercise with Pyspark
