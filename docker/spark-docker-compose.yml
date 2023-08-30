@@ -2,10 +2,10 @@
 version: '3.8'
 name: 'jupiter-pyspark'
 services:
-  jupiter-pyspark:
+  jupiter-pyspark-p:
     image: jupyter/pyspark-notebook:spark-3.4.1
-    hostname: jupiter-pyspark
-    container_name: jupiter-pyspark
+    hostname: jupiter-pyspark-p
+    container_name: jupiter-pyspark-p
     ports:
       - "8888:8888"
       - "4040:4040"
